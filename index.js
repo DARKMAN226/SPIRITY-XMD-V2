@@ -243,7 +243,7 @@ async function start() {
             contextInfo: {
               externalAdReply: {
                 showAdAttribution: false,
-                title: "Makamesco-MD",
+                title: "SPIRITY-XMD",
                 body: `Select to proceed.`,
                 sourceUrl: `https://github.com/DARKMAN226/SPIRITY-XMD-V2.git`,
                 mediaType: 1,
