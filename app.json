@@ -1,0 +1,29 @@
+{
+  "name": "SPIRITY-XMD",
+  "description": "⚡ A BEST WhatsApp bot built to dominate chats with toxic style! Powered by DARK-DEV🍷.",
+  "keywords": ["SPIRITY-XMD", "WhatsApp Bot", "Multi-Device", "BLACK"],
+  "repository": "https://github.com/DARKMAN226/SPIRITY-XMD-V2.git",
+  "stack": "container",
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "📱 Your WhatsApp number (with country code, no +). Who’s runnin’ this show? 💪",
+      "required": true,
+      "value": "22603582906"
+    },
+    "OWNER_NAME": {
+      "description": "👑 Your name, the boss of *SPIRITY-XMD*. Flex it in the bot’s credits! 😎",
+      "required": true,
+      "value": "dev"
+    },
+    "PREFIX": {
+      "description": "🔠 Command trigger (e.g., ‘.’ for !ping). Keep it short or look like a clown! 🤡",
+      "required": true,
+      "value": "."
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
